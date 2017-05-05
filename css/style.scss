@@ -1,0 +1,96 @@
+.header{
+	background-color: #3498db;
+	height: 70px;
+	.logo-menu{
+		margin: 0 5%;
+	}
+	img{
+		width: 25%;
+		height: 70px;
+	}
+	ul{
+		float: right;
+		height: 70px;
+		li{
+			height: 70px;
+			a{
+				font-size: 20px;
+				color: white;
+				padding: 21px 15px;
+			}
+			&:hover{
+				a{
+				color: #3498db;
+			    }
+			}
+		}
+	}
+}
+
+
+.service_add{
+	 .panel {
+     background-color: white;
+     margin-bottom: 0px;
+     border: none;
+     border-bottom: 1px solid #ddd;
+     border-top: 1px solid #ddd;
+     .panel-heading{
+      border: none;
+      cursor: pointer;
+      h3{
+        padding:20px;
+        float: left;
+      }
+      .minus{
+        display: none;
+         margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        float: right;
+      }
+      .plus{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        float: right;
+      }
+      padding:10px;
+       background-color: white;
+     }
+   }
+   .panel-body {
+    display: none;
+    .select_dropdown{
+    	width: 100%;
+    	height: 31px;
+    	outline-color: transparent;
+    }
+    .tokenid{
+    	width: 100%;
+    	height: 30px;
+    	outline-color: transparent;
+    }
+    .commet{
+    	width: 100%;
+    	height: 30px;
+    	outline-color: transparent;
+    }
+    .save{
+    	float: right;
+    	outline-color: transparent;
+    	width: 50%;
+    	height: 32px;
+    }
+   }
+}
+
+.table{
+   	margin-top: 30px;
+   	.maincolorhead{
+    background-color: #3498db;
+    color: white;
+    }
+}

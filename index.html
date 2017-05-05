@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fuel</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="header">
+   <div class="col-md-12">
+      <div class="logo-menu"> 
+        <div class="col-md-6">
+            <img src="images/aa-logo.png">
+        </div>
+        <div class="col-md-6">
+           <ul class="nav nav-pills">
+             <li><a href="#">Settings</a></li>
+             <li><a href="#">Report</a></li>
+           </ul>
+        </div>
+      </div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+ <div class="container">
+    <div class="service_add">
+       <div class="col-md-12">
+       <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="plus"> + </h3><h3 class="minus"> - </h3><h3 class="panel-title">Add SERVICE</h3>
+            </div>
+            <div class="clearfix"></div>
+            <div class="panel-body">
+                <div class="col-md-12">
+                  <div class="col-md-2">
+                    <select class="select_dropdown">
+                      <option value="volvo">Azpetrol</option>
+                      <option value="saab">Lukoil</option>
+                    </select>                    
+                  </div>
+                  <div class="col-md-5">
+                    <input type="input" class="tokenid" name="" placeholder="Enter token id">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="input" class="commet" name="" placeholder="commet">
+                  </div>
+                  <div class="col-md-2">
+                  <button type="button" class="btn btn-default save">Save</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="table_service">
+      <div class="col-md-12">
+      	  <table class="table table-striped">
+               <thead class="maincolorhead">
+                 <tr>
+                   <th title="Select for delete or edit services">
+                   	<input class="select_all" type="checkbox" value="">
+                   </th>
+                   <th>Service name</th>
+                   <th>Token Id</th>
+                   <th>Commet</th>
+                   <th>Date</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>
+                   	<input class="service_box" type="checkbox" value="">
+                   </td>
+                   <td>Rose</td>
+                   <td>Hanson</td>
+                   <td>@rosehanso</td>
+                   <td>05/05/2017</td>
+                 </tr>
+                 <tr>
+                   <td>
+                   	<input class="service_box" type="checkbox" value="">
+                   </td>
+                   <td>Kelly</td>
+                   <td>Patel</td>
+                   <td>@kellypatel</td>
+                   <td>05/05/2017</td>
+                 </tr>
+                 <tr>
+                   <td>
+                   	<input class="service_box" type="checkbox" value="">
+                   </td>
+                   <td>William</td>
+                   <td>Mills</td>
+                   <td>@williammills</td>
+                   <td>05/05/2017</td>
+                 </tr>
+               </tbody>
+           </table>
+      </div>
+    </div>
+ </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
