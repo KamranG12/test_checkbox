@@ -24,10 +24,32 @@ $(document).ready(function() {
        }
    })
 
+    
+
+    var select=0;
+    $('input[type=checkbox]').click(function(){
+      if($(this).is(':checked')){
+        select++;
+      }else{
+        select--;
+      }
+      if(select==1){
+        $('.edit').removeAttr('disabled','disabled');
+      }else{
+         $('.edit').attr('disabled','disabled');
+      }
+      if(select>0){
+        $('.delete').removeAttr('disabled','disabled');
+      }else{
+        $('.delete').attr('disabled','disabled');
+      }
+    })
+
+
     $(".select_all").click(function(){
     $('input:checkbox').not(this).prop('checked', this.checked);
     var count = $("[type='checkbox']:checked").length;
-    console.log(count)
-});
+       $('.edit').attr('disabled','disabled');
+    });
    
 }); 

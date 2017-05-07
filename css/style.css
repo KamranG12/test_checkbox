@@ -71,4 +71,9 @@
     background-color: #3498db;
     color: white; }
 
+.edit_delete .edit {
+  width: 100%; }
+.edit_delete .delete {
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
